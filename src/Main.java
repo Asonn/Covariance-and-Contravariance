@@ -50,7 +50,7 @@ public class Main {
      */
     public static void genericsExplained() {
         // doesn't compile because after the code is compiled it won't know that it only should allow Birds.
-//        List <Animal> animals = new ArrayList <Bird>();
+        List <Animal> animals = new ArrayList <Bird>();
     }
 
     /**
